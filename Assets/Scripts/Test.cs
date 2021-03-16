@@ -1,5 +1,6 @@
 using System;
-using ContactList;
+using ContactListPlugin;
+using ContactListPlugin.Platforms;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,7 +10,7 @@ public class Test : MonoBehaviour
     private void Start()
     {
         var logcat = new AndroidJavaClass("com.oland.log.Log");
-        var list = new ContactListForAndroid();
+        var list = new ContactListPlugin.ContactList(new ContactListForAndroid());
         var contactList = list.PullContacts();
         
         for (int i = 0; i < contactList.Count; i++)

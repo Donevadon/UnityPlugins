@@ -1,4 +1,4 @@
-namespace ContactList.JavaProxy
+namespace ContactListPlugin.JavaProxy
 {
     public interface IContactContainer
     {

@@ -1,6 +1,6 @@
-using ContactList.JavaProxy;
+using ContactListPlugin.JavaProxy;
 
-namespace ContactList
+namespace ContactListPlugin
 {
     public interface IContactList
     {

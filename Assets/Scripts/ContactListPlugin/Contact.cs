@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ContactList
+namespace ContactListPlugin
 {
     public class Contact
     {
