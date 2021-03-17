@@ -1,5 +1,0 @@
-include ':Log'
-include ':mylibrary'
-include ':ContactList'
-include ':app'
-rootProject.name = "My Application"
